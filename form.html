@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Pemesanan</h1><br>
+    <form action="" method="post">
+        Nama : <input type="text" id="nama" placeholder="Isikan Nama"><br>
+        Jenis Kelamin : <input type="radio" name="laki-laki" id="lk" value="Laki - Laki"> Laki - Laki
+                        <input type="radio" name="perempuan" id="pr" value="Perempuan">Perempuan <br>
+        Tanggal Keberangkatan : <input type="date" name="Tanggal-Keberangkatan" id="tgl"><br>
+        Kelas : <select  id="kelas">
+           
+        </select><br>
+        Harga : <input type="number" name="" id="harga"  readonly><br>
+
+        Jumlah Penumpang <input type="number" name="" id="jml-penumpang"  min="0" ><br>
+
+        Total Harga : <input type="number" name="" id="total-harga" value="0" readonly>
+                      <input type="button" id="tombol-harga" value="Total Harga"></input><br>
+
+    </form>
+    <script src="./js/pemesanan.js"></script>
+</body>
+</html>
